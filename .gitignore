@@ -93,3 +93,8 @@ lint/tmp/
 
 # for MacOS users
 .DS_Store
+/.idea/.gitignore
+/.idea/.name
+/.idea/compiler.xml
+/.idea/kotlinc.xml
+/.idea/migrations.xml

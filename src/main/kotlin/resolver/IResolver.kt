@@ -15,4 +15,7 @@ interface IResolver {
 
     // Выберите команду с наибольшим числом удалений на одного игрока.
     fun getTheRudestTeam(): Team
+
+    // Возвращает топ-10 команд по суммарной трансферной стоимости
+    fun getTop10TeamsByTotalValue(): List<Pair<String, Double>>
 }
